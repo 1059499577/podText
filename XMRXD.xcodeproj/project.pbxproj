@@ -15,6 +15,7 @@
 		28F373CA1E65798000E086AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F373C81E65798000E086AB /* LaunchScreen.storyboard */; };
 		28F373D51E65798000E086AB /* XMRXDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F373D41E65798000E086AB /* XMRXDTests.m */; };
 		28F373E01E65798000E086AB /* XMRXDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F373DF1E65798000E086AB /* XMRXDUITests.m */; };
+		28F373F01E657A3800E086AB /* XMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F373EF1E657A3800E086AB /* XMLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		28F373DB1E65798000E086AB /* XMRXDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMRXDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F373DF1E65798000E086AB /* XMRXDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMRXDUITests.m; sourceTree = "<group>"; };
 		28F373E11E65798000E086AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F373EE1E657A3800E086AB /* XMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLog.h; sourceTree = "<group>"; };
+		28F373EF1E657A3800E086AB /* XMLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		28F373B91E65798000E086AB /* XMRXD */ = {
 			isa = PBXGroup;
 			children = (
+				28F373ED1E657A2B00E086AB /* Class */,
 				28F373BD1E65798000E086AB /* AppDelegate.h */,
 				28F373BE1E65798000E086AB /* AppDelegate.m */,
 				28F373C01E65798000E086AB /* ViewController.h */,
@@ -138,6 +142,15 @@
 				28F373E11E65798000E086AB /* Info.plist */,
 			);
 			path = XMRXDUITests;
+			sourceTree = "<group>";
+		};
+		28F373ED1E657A2B00E086AB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				28F373EE1E657A3800E086AB /* XMLog.h */,
+				28F373EF1E657A3800E086AB /* XMLog.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F373C21E65798000E086AB /* ViewController.m in Sources */,
+				28F373F01E657A3800E086AB /* XMLog.m in Sources */,
 				28F373BF1E65798000E086AB /* AppDelegate.m in Sources */,
 				28F373BC1E65798000E086AB /* main.m in Sources */,
 			);
@@ -505,6 +519,7 @@
 				28F373E61E65798000E086AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28F373E71E65798000E086AB /* Build configuration list for PBXNativeTarget "XMRXDTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +528,7 @@
 				28F373E91E65798000E086AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28F373EA1E65798000E086AB /* Build configuration list for PBXNativeTarget "XMRXDUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +537,7 @@
 				28F373EC1E65798000E086AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
